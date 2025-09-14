@@ -215,7 +215,7 @@ header .menu .menu-icon{
     font-family: "Poppins", sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
-    margin-top: -2px;
+    margin-top: -3px;
     background-color: var(--navbg);
     color: #fff;
     padding: 5px;
@@ -236,7 +236,7 @@ header .menu .menu-icon{
     font-size: var(--hero-heading);
     font-weight: 700;
     font-size: 4rem;
-    margin-top: -30px;
+    margin-top: -25px;
    
 
 }
