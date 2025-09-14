@@ -223,9 +223,9 @@ header .menu .menu-icon{
    border-radius: 10px;
 }
 .hero-content .check {
-     width: 15px;
-    height: 15px;
-    stroke: currentColor;
+     width: 12px;
+    height: 12px;
+    stroke: var(--secondary-color);
     display: inline-flex;
     margin-left: 0.6rem;
     vertical-align: middle;
