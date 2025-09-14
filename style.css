@@ -19,7 +19,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+   overflow-x: hidden;
 
 }
 
@@ -164,8 +164,7 @@ header .header-cta .cta {
     font-weight: 500;
 
 }
-
-header .menu .menu-icon {
+header .menu .menu-icon{
     display: none;
 }
 
@@ -173,19 +172,15 @@ header .menu .menu-icon {
     header {
         padding: 15px;
     }
-
     .logo {
         margin-left: -100px;
     }
-
     nav {
         display: none;
     }
-
     header .header-cta {
         display: none;
     }
-
     header .menu .menu-icon {
         display: block;
         color: #fff;
@@ -229,7 +224,7 @@ header .menu .menu-icon {
     font-weight: 700;
     font-size: 4rem;
     margin-top: -30px;
-
+   
 
 }
 
@@ -319,12 +314,13 @@ header .menu .menu-icon {
     }
 
     .hero-content h1 {
-        font-weight: 600;
+        font-size: 3rem;
         white-space: normal;
-        line-height: 1.2;
-        max-width: 90%;
-        margin: 0 auto;
-        font-size: clamp(1.5rem, 5vw, 2.5rem);
+        word-break: break-word;
+        line-height: 1.1;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 350px;
     }
     .hero-content h3 {
         width: 390px;
