@@ -213,9 +213,22 @@ header .menu .menu-icon{
 
 .hero-content h6 {
     font-family: "Poppins", sans-serif;
-    font-size: var(--labels);
+    font-size: 0.9rem;
     font-weight: 500;
     margin-top: -2px;
+    background-color: var(--navbg);
+    color: #fff;
+    padding: 5px;
+   max-width: 250px;
+   border-radius: 10px;
+}
+.hero-content .check {
+     width: 15px;
+    height: 15px;
+    stroke: currentColor;
+    display: inline-flex;
+    margin-left: 0.6rem;
+    vertical-align: middle;
 }
 
 .hero-content h1 {
@@ -306,6 +319,7 @@ header .menu .menu-icon{
     margin-left: 0.4rem;
     vertical-align: middle;
 }
+
 
 @media (max-width: 480px) {
     .hero-content {
