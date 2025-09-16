@@ -33,11 +33,9 @@ header {
     padding: 30px;
     font-family: "Montserrat", sans-serif;
     position: fixed;
-    /* stays fixed at the top */
     top: 0;
     left: 0;
     width: 100%;
-    /* span full width */
     z-index: 1000;
 
 
@@ -170,7 +168,7 @@ header .menu .menu-icon{
 
 @media (max-width: 480px) {
     header {
-        padding: 15px;
+        padding: 10px;
     }
     .logo {
         margin-left: -100px;
@@ -302,7 +300,7 @@ header .menu .menu-icon{
     text-decoration: none;
     padding: 10px 15px;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     width: 120px;
     font-family: "Poppins", sans-serif;
